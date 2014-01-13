@@ -10,20 +10,30 @@ with numerical values, but rarely as "very" blue. Or "unfortunately"
 blue. I came up with the idea when a friend of mine claimed something
 was "very very false." Which now gives the desired result:
 
-> very very False == False
+```
+very very False == False
+```
 
 As a bonus, I added a few "doge" modifiers.
 
 Examples
 ========
 
-> wow. so reverse $ "egod"
+```
+wow. so reverse $ "egod"
+```
 
-> brutally take 4 [0..]
+```
+brutally take 4 [0..]
+```
 
-> carefully readFile "manual"
+```
+carefully readFile "manual"
+```
 
-> stupidly drop 1 ["vase", "hammer", "anvil"]
+```
+stupidly drop 1 ["vase", "hammer", "anvil"]
+```
 
 Uses
 ====
@@ -37,9 +47,13 @@ within expressions.
 
 E.g.:
 
-> if doLogging then wisely runProgram (Just logFile)
-> else recklessly runProgram Nothing
+```
+if doLogging then wisely runProgram (Just logFile)
+else recklessly runProgram Nothing
+```
 
-> case state of
->   Impossible -> weirdly error "Dumb programmer."
->   n -> handleState . tranquilly $ n
+```
+case state of
+  Impossible -> weirdly error "Dumb programmer."
+  n -> handleState . tranquilly $ n
+```
